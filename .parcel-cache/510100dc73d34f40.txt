@@ -18,7 +18,7 @@
 100C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\abortcontroller-polyfill132966224235860164 1
 109C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\weak-lru-cache\tests\benchmark.js132966224225510756 0
 118C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\@babel\helper-validator-identifier\LICENSE132966224222898369 0
-67C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\dist132966227397524582 1
+67C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\dist132966242544853708 1
 132C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\htmlnano\docs\versioned_docs\version-1.1.1\030-config.md132966224243106762 0
 85C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\@mischnic132966224203555547 1
 89C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\array-flatten132965679857619377 1
@@ -62,7 +62,7 @@
 103C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\lmdb\src\ordered-binary.cpp132966224248141342 0
 104C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\node-releases\data\processed132966224225921121 1
 111C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\@parcel\source-map\src\SourceMap.js132966224235750060 0
-79C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\public\style.css132965675012408384 0
+79C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\public\style.css132966231443940347 0
 96C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\css-select\README.md132966224236891102 0
 109C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\@parcel\core\lib\applyRuntimes.js132966224256661366 0
 96C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\electron-to-chromium132966224234398834 1
@@ -4447,7 +4447,7 @@
 141C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\@parcel\core\test\fixtures\library-custom-scopehoist\package.json132966224265008967 0
 131C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\@parcel\core\test\fixtures\invalid-targets\package.json132966224264978935 0
 146C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\@parcel\core\test\fixtures\invalid-target-source-not-file\package.json132966224264958923 0
-78C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\dist\index.html132966227397434495 0
+78C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\dist\index.html132966242544823682 0
 139C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\@parcel\core\test\fixtures\invalid-source-not-file\src\index.js132966224260304684 0
 138C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\@parcel\core\test\fixtures\invalid-source-missing\package.json132966224264858827 0
 131C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\@parcel\core\test\fixtures\invalid-engines\package.json132966224264818798 0
@@ -4637,7 +4637,7 @@
 87C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\.bin\semver132966224335294264 0
 91C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\.bin\semver.cmd132966224335294264 0
 91C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\node_modules\.bin\terser.ps1132966224335314282 0
-86C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\dist\index.83d9161e.css132966227397024123 0
-90C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\dist\index.83d9161e.css.map132966227397024123 0
-85C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\dist\index.f3bd186e.js132966227396883993 0
-89C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\dist\index.f3bd186e.js.map132966227397014113 0
+86C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\dist\index.83d9161e.css132966242542017786 0
+90C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\dist\index.83d9161e.css.map132966242542047820 0
+85C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\dist\index.f3bd186e.js132966242543148950 0
+89C:\Users\jacks\OneDrive\Documents\Code\My_applications\Studbud\dist\index.f3bd186e.js.map132966242543168964 0
