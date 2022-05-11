@@ -1,11 +1,30 @@
-body{
-    background-color: whitesmoke;
+html{
+    height: 100%;
+    body{
+        background-color: whitesmoke;
+        min-height: 100%;
+        margin: 0px;
+    }
 }
+
 .landing{
     background-image: url('../Resources/Images/logo_busy_bee.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: auto 90%;
+    
+    a {
+        display: inline-block;
+        margin: 0px;
+        max-width: 4rem;
+        transform: translate(65vw, 65vh);
+        //transform: translateY(50%)
+    }
+}
+.home{
+    background-image: url('../Resources/Images/background_honeycomb.png');
+    background-attachment: fixed;
+    
 }
 
 
