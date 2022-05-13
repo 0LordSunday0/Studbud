@@ -9,47 +9,72 @@
   <meta name="description" content="">
   <link rel="stylesheet" href="/index.c74267d1.css">
   <link rel="icon" type="image/x-icon" href="/honeycomb_favicon.a76b5525.png">
-  <script src="/home.f3bd186e.js"></script>
 </head>
 
 <body class="home">
-  <div id="task-grid">
-    <form id="taskform">
-      <label for="task">Task:</label>
-      <input type="text" name="task" id="taskInput">
-  
-      <br>
-    <!-- Date input -->
-      <label for="dueDate">Due Date: </label>
-      <input type="date" name="dueDate" id="dueDateInput">
-      <br>
-    <!-- Time input -->
-    <label for="completionTime">Completion Time: </label>
-      <input type="time" name="completionTime" id="completionTimeInput">
-  
-      <br>
-  
-    <label for="estimatedTime">Estimated completion time (in mins):</label>
-    <input type="number" name="estimatedTime" id="estimatedTimeInput">
-    <!-- Priority -->
-    <br>
-  
-    <label for="priority">Task Priority:</label>
-    <select name="prority" id="priorityInput">
-      <option value="">Select one</option>
-      <option value="Low">Low</option>
-      <option value="Medium">Medium</option>
-      <option value="High">High</option>
-    </select>
-  
-    <br>
-  
-      <button type="submit">Submit</button>
-    </form>
-    <ul id="tasklist">
-    </ul>
+  <div class="grid-container">
+    <div class="Header"></div>
+    <div class="tasklist-container">
+      
+      <div id="task-grid">
+        <div class="wrapper">
+          <a href="#demo-modal">New Task</a>
+        </div>
+        
+        <div id="demo-modal" class="modal">
+            <div class="modal__content">
+                <h1>Enter Task Details</h1>
+        
+                <form id="taskform">
+                  <label for="task">Task:</label>
+                  <input type="text" name="task" id="taskInput">
+              
+                  <br>
+                <!-- Date input -->
+                  <label for="dueDate">Due Date: </label>
+                  <input type="date" name="dueDate" id="dueDateInput">
+                  <br>
+                <!-- Time input -->
+                <label for="completionTime">Completion Time: </label>
+                  <input type="time" name="completionTime" id="completionTimeInput">
+              
+                  <br>
+              
+                <label for="estimatedTime">Estimated completion time (in mins):</label>
+                <input type="number" name="estimatedTime" id="estimatedTimeInput">
+                <!-- Priority -->
+                <br>
+              
+                <label for="priority">Task Priority:</label>
+                <select name="prority" id="priorityInput">
+                  <option value="">Select one</option>
+                  <option value="Low">Low</option>
+                  <option value="Medium">Medium</option>
+                  <option value="High">High</option>
+                </select>
+              
+                <br>
+              
+                  <button type="submit">Submit</button>
+                </form>
+        
+                <div class="modal__footer">
+                </div>
+        
+                <a href="#" class="modal__close">&times;</a>
+            </div>
+        </div>
+        
+        <ul id="tasklist">
+        </ul>
+      </div> 
+    </div>
+    <div class="Timer"></div>
+    <div class="Player"></div>
+    <div class="Bibliography"></div>
   </div>
-  
 </body>
+
+<script src="/home.f3bd186e.js"></script>
 
 </html>

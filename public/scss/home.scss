@@ -1,0 +1,42 @@
+/*This scss is the structure and styling of the home page and its grid*/
+
+.grid-container {
+    height: 100vh;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 1px 1px; 
+    grid-template-areas: 
+      "header header"
+      "Tasklist Tasklist"
+      "Tasklist Tasklist"
+      "Timer Bibliography"
+      "Timer Bibliography"
+      "Player Player"; 
+  }
+
+.grid-container > *{
+    background-color: brown;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.Player { 
+    grid-area: Player; 
+}
+.Bibliography { 
+    grid-area: Bibliography; 
+    margin-left: 0.5rem;
+}
+.Timer { 
+    grid-area: Timer; 
+    margin-right: 0.5rem;
+}
+.tasklist-container { 
+    grid-area: Tasklist; 
+}
+.Header { 
+    grid-area: header; 
+}

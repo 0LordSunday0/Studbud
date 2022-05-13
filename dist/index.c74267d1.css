@@ -27,8 +27,114 @@ html body {
   background-attachment: fixed;
 }
 
+.grid-container {
+  height: 100vh;
+  grid-template: "header header" 1fr
+                 "Tasklist Tasklist" 1fr
+                 "Tasklist Tasklist" 1fr
+                 "Timer Bibliography" 1fr
+                 "Timer Bibliography" 1fr
+                 "Player Player" 1fr
+                 / 1fr 1fr;
+  gap: 1px;
+  display: grid;
+}
+
+.grid-container > * {
+  background-color: brown;
+  margin: .5rem 25rem;
+}
+
+.Player {
+  grid-area: Player;
+}
+
+.Bibliography {
+  grid-area: Bibliography;
+  margin-left: .5rem;
+}
+
+.Timer {
+  grid-area: Timer;
+  margin-right: .5rem;
+}
+
+.tasklist-container {
+  grid-area: Tasklist;
+}
+
+.Header {
+  grid-area: header;
+}
+
 html body {
   font-size: 30px;
+}
+
+.tasklist-container {
+  background-color: #399b31;
+}
+
+.tasklist-container .wrapper {
+  background: -webkit-linear-gradient(to right, #834d9b, #d04ed6);
+  background: linear-gradient(to right, #834d9b, #d04ed6);
+}
+
+.tasklist-container .wrapper a {
+  text-transform: uppercase;
+  color: #585858;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 15px;
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.tasklist-container .modal {
+  visibility: hidden;
+  opacity: 0;
+  background: #4d4d4db3;
+  justify-content: center;
+  align-items: center;
+  transition: all .4s;
+  display: flex;
+  position: absolute;
+  inset: 0;
+}
+
+.tasklist-container .modal:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tasklist-container .modal__content {
+  width: 500px;
+  max-width: 90%;
+  background: #fff;
+  border-radius: 4px;
+  padding: 1em 2em;
+  position: relative;
+}
+
+.tasklist-container .modal__footer {
+  text-align: right;
+}
+
+.tasklist-container .modal__footer a {
+  color: #585858;
+}
+
+.tasklist-container .modal__footer i {
+  color: #d02d2c;
+}
+
+.tasklist-container .modal__close {
+  color: #585858;
+  text-decoration: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 /*# sourceMappingURL=index.c74267d1.css.map */
