@@ -47,7 +47,9 @@ ul {
 }
 
 .grid-container > * {
-  background-color: brown;
+  background-color: #ebaf4c;
+  border: 8px solid #b87333;
+  border-radius: 30px;
   margin: .5rem 25rem;
 }
 
@@ -78,7 +80,6 @@ html body {
 }
 
 .tasklist-container {
-  background-color: #399b31;
   grid-template: "add" 1fr
                  "things" 1fr
                  "things" 1fr
@@ -100,15 +101,26 @@ html body {
 }
 
 .tasklist-container .item-container ul li {
-  background-color: #fafad2;
-  margin: 10px 0;
+  background-color: #f6bf51;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  position: relative;
+}
+
+.tasklist-container .item-container ul li:after {
+  content: "";
+  height: 10px;
+  width: 70%;
+  background: #d5d5d7;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -15px;
+  left: 15%;
 }
 
 .tasklist-container .wrapper {
   height: 100%;
   width: 100%;
-  background: -webkit-linear-gradient(to right, #834d9b, #d04ed6);
-  background: linear-gradient(to right, #834d9b, #d04ed6);
   justify-content: center;
   align-items: center;
   display: flex;

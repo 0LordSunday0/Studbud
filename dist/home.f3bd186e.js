@@ -14,7 +14,7 @@ form.addEventListener("submit", function(event) {
     let estimatedTime = estimatedTimeInput.value;
     let priorityRating = priorityInput.options[priorityInput.selectedIndex].value;
     addTask(task, dueDate, estimatedTime, priorityRating, completionTime, false);
-    console.log(taskList);
+    console.log(tasklist);
 });
 var taskListArray = [];
 function addTask(taskDescription, dueDate, estimatedTime, priorityRating, completionTime, completionStatus) {
@@ -36,11 +36,11 @@ function addTask(taskDescription, dueDate, estimatedTime, priorityRating, comple
 function renderTask(task) {
     // Create HTML elements
     let item = document.createElement("li");
-    item.innerHTML = "<p>" + task.taskDescription + "</p>";
+    item.innerHTML = task.taskDescription + " " + task.dueDate + " " + task.priorityRating;
     tasklist.appendChild(item);
     // Extra Task DOM elements
     let delButton = document.createElement("button");
-    let delButtonText = document.createTextNode("Delete Task");
+    let delButtonText = document.createTextNode("Completed");
     delButton.appendChild(delButtonText);
     item.appendChild(delButton);
     // Event Listeners for DOM elements
