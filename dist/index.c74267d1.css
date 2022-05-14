@@ -8,6 +8,12 @@ html body {
   margin: 0;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 .landing {
   background-image: url("logo_busy_bee.b82288b8.png");
   background-repeat: no-repeat;
@@ -73,11 +79,39 @@ html body {
 
 .tasklist-container {
   background-color: #399b31;
+  grid-template: "add" 1fr
+                 "things" 1fr
+                 "things" 1fr
+                 "things" 1fr
+                 "things" 1fr
+                 "things" 1fr
+                 / 1fr;
+  gap: 1px;
+  display: grid;
+}
+
+.tasklist-container .task-creation {
+  grid-area: add;
+}
+
+.tasklist-container .item-container {
+  grid-area: things;
+  overflow-y: scroll;
+}
+
+.tasklist-container .item-container ul li {
+  background-color: #fafad2;
+  margin: 10px 0;
 }
 
 .tasklist-container .wrapper {
+  height: 100%;
+  width: 100%;
   background: -webkit-linear-gradient(to right, #834d9b, #d04ed6);
   background: linear-gradient(to right, #834d9b, #d04ed6);
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .tasklist-container .wrapper a {
@@ -88,7 +122,6 @@ html body {
   padding: 15px;
   font-family: Roboto, sans-serif;
   text-decoration: none;
-  display: inline-block;
 }
 
 .tasklist-container .modal {

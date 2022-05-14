@@ -12,11 +12,15 @@
 </head>
 
 <body class = "home">
+  <!--Im using a grid layout for my home page-->
   <div class="grid-container">
     <div class="Header"></div>
+
+    <!--The tasklist-container cell is its own nested grid-->
     <div class="tasklist-container">
       
-      <div id="task-grid">
+      <!--The task-creation cell contains a hidden form-->
+      <div id="task-creation">
         <div class="wrapper">
           <a href="#demo-modal">New Task</a>
         </div>
@@ -24,7 +28,8 @@
         <div id="demo-modal" class="modal">
             <div class="modal__content">
                 <h1>Enter Task Details</h1>
-        
+
+                <!--The following code is from our tutorials which covered form creation-->
                 <form id="taskform">
                   <label for="task">Task:</label>
                   <input type="text" name="task" id="taskInput">
@@ -64,10 +69,12 @@
                 <a href="#" class="modal__close">&times;</a>
             </div>
         </div>
-        
-        <ul id="tasklist">
-        </ul>
       </div> 
+      <!--This is wher new tasks are appended-->
+      <div class="item-container">
+        <ul id="tasklist"></ul>
+      </div>
+      </ul>
     </div>
     <div class="Timer"></div>
     <div class="Player"></div>
