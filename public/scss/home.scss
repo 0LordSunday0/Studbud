@@ -41,6 +41,12 @@
 .tasklist-container { 
     grid-area: Tasklist; 
 }
-.Header { 
-    grid-area: header; 
+.Header {
+    display: flex;
+    justify-content: center;
+    grid-area: header;
+    border-style: none;
+    background-color: #F6BF51;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }

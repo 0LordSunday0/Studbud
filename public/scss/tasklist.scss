@@ -29,9 +29,6 @@
                 padding: 10px 0px 10px 0px;
                 position: relative;
                 margin-bottom: 20px;
-                //border-style: none none solid none;
-                //border-width: 5px;
-                //border-color: #D5D5D7;
             }
             li:after {
                 content: "";
@@ -47,8 +44,8 @@
     }
 
     //Following code inspired by https://markodenic.com/css-tips/. The idea is to use the target psuedo class 
-        //in order to hide the task creation options in a hidden div, allowing for a more streamlined design.
-        //This also makes it easier to make it mobile compatible.
+    //in order to hide the task creation options in a hidden div, allowing for a more streamlined design.
+    //This also makes it easier to make it mobile compatible.
     .wrapper {
         height: 100%;
         width: 100%;
