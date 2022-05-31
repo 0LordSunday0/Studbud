@@ -22,7 +22,7 @@
 101C:\Users\jacks\My_Repositories\Studbud\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Makefile132966224236000303 0
 70C:\Users\jacks\My_Repositories\Studbud\node_modules\.package-lock.json132966279448917500 0
 94C:\Users\jacks\My_Repositories\Studbud\node_modules\@parcel\transformer-react-refresh-wrap\lib132966224242025777 1
-61C:\Users\jacks\My_Repositories\Studbud\public\scss\style.scss132969954654431573 0
+61C:\Users\jacks\My_Repositories\Studbud\public\scss\style.scss132984450603452592 0
 67C:\Users\jacks\My_Repositories\Studbud\node_modules\tr46\LICENSE.md132966224226001197 0
 90C:\Users\jacks\My_Repositories\Studbud\node_modules\caniuse-lite\data\features\minmaxwh.js132966224267671387 0
 76C:\Users\jacks\My_Repositories\Studbud\node_modules\@swc\helpers\lib\_jsx.js132966224242045797 0
@@ -51,7 +51,7 @@
 88C:\Users\jacks\My_Repositories\Studbud\node_modules\css-tree\lib\lexer\generic-urange.js132966224241495289 0
 101C:\Users\jacks\My_Repositories\Studbud\node_modules\caniuse-lite\data\features\css-backdrop-filter.js132966224251134067 0
 72C:\Users\jacks\My_Repositories\Studbud\node_modules\json5\lib\require.js132966224234078545 0
-43C:\Users\jacks\My_Repositories\Studbud\dist132969982778980965 1
+43C:\Users\jacks\My_Repositories\Studbud\dist132984450035550517 1
 84C:\Users\jacks\My_Repositories\Studbud\node_modules\@parcel\utils\src\escape-html.js132966224258743282 0
 83C:\Users\jacks\My_Repositories\Studbud\node_modules\caniuse-lite\data\regions\FI.js132966224260815146 0
 68C:\Users\jacks\My_Repositories\Studbud\node_modules\is-glob\index.js132966248382415113 0
@@ -85,11 +85,11 @@
 55C:\Users\jacks\My_Repositories\Studbud\node_modules\nan132966224240394290 1
 76C:\Users\jacks\My_Repositories\Studbud\node_modules\has-symbols\CHANGELOG.md132965679861663137 0
 80C:\Users\jacks\My_Repositories\Studbud\node_modules\postcss\lib\stringifier.d.ts132966279414747099 0
-55C:\Users\jacks\My_Repositories\Studbud\public\home.html132969973400314943 0
+55C:\Users\jacks\My_Repositories\Studbud\public\home.html132970803449719722 0
 76C:\Users\jacks\My_Repositories\Studbud\node_modules\nullthrows\nullthrows.js132966224233608113 0
 56C:\Users\jacks\My_Repositories\Studbud\node_modules\lmdb132966224267601326 1
 94C:\Users\jacks\My_Repositories\Studbud\node_modules\caniuse-lite\data\features\css-autofill.js132966224251084023 0
-56C:\Users\jacks\My_Repositories\Studbud\public\index.html132967501712089398 0
+56C:\Users\jacks\My_Repositories\Studbud\public\index.html132970802429647181 0
 80C:\Users\jacks\My_Repositories\Studbud\node_modules\sass\types\logger\index.d.ts132966248384236786 0
 93C:\Users\jacks\My_Repositories\Studbud\node_modules\caniuse-lite\data\features\css-filters.js132966224252635450 0
 63C:\Users\jacks\My_Repositories\Studbud\node_modules\safe-buffer132965679857939670 1
@@ -106,7 +106,7 @@
 62C:\Users\jacks\My_Repositories\Studbud\node_modules\json5\dist132966224236330597 1
 88C:\Users\jacks\My_Repositories\Studbud\node_modules\object-inspect\test\indent-option.js132965679862975670 0
 78C:\Users\jacks\My_Repositories\Studbud\node_modules\@parcel\compressor-raw\src132966224255458000 1
-55C:\Users\jacks\My_Repositories\Studbud\public\script.js132969972490877087 0
+55C:\Users\jacks\My_Repositories\Studbud\public\script.js132969998329661034 0
 115C:\Users\jacks\My_Repositories\Studbud\node_modules\@parcel\core\test\fixtures\invalid-source-not-file\src\index.js132966224260304684 0
 87C:\Users\jacks\My_Repositories\Studbud\node_modules\utility-types\dist\utility-types.js132966224230875649 0
 71C:\Users\jacks\My_Repositories\Studbud\node_modules\proxy-addr\index.js132965679856418420 0
@@ -120,11 +120,11 @@
 72C:\Users\jacks\My_Repositories\Studbud\node_modules\proxy-addr\README.md132965679858219919 0
 60C:\Users\jacks\My_Repositories\Studbud\node_modules\statuses132965679858830495 1
 74C:\Users\jacks\My_Repositories\Studbud\node_modules\yaml\dist\parse-cst.js132966224236500747 0
-60C:\Users\jacks\My_Repositories\Studbud\public\scss\home.scss132969963883140074 0
+60C:\Users\jacks\My_Repositories\Studbud\public\scss\home.scss132984451473470461 0
 59C:\Users\jacks\My_Repositories\Studbud\node_modules\destroy132965679856988938 1
 84C:\Users\jacks\My_Repositories\Studbud\public\Resources\Images\honeycomb_favicon.png132967255542056089 0
 60C:\Users\jacks\My_Repositories\Studbud\node_modules\css-what132966224235529863 1
-60C:\Users\jacks\My_Repositories\Studbud\public\scss\main.scss132968942685937358 0
+60C:\Users\jacks\My_Repositories\Studbud\public\scss\main.scss132970803770268922 0
 84C:\Users\jacks\My_Repositories\Studbud\node_modules\terser\lib\compress\inference.js132966224239703661 0
 92C:\Users\jacks\My_Repositories\Studbud\node_modules\@swc\helpers\src\_non_iterable_spread.js132966224251744632 0
 69C:\Users\jacks\My_Repositories\Studbud\node_modules\yaml\package.json132966224241405217 0
@@ -149,7 +149,7 @@
 91C:\Users\jacks\My_Repositories\Studbud\node_modules\terser\node_modules\commander\Readme.md132966224256661366 0
 73C:\Users\jacks\My_Repositories\Studbud\node_modules\nanoid\async\index.js132966279412382871 0
 78C:\Users\jacks\My_Repositories\Studbud\node_modules\@parcel\workers\lib\bus.js132966224239123138 0
-64C:\Users\jacks\My_Repositories\Studbud\public\scss\tasklist.scss132969984778590302 0
+64C:\Users\jacks\My_Repositories\Studbud\public\scss\tasklist.scss132984440578780287 0
 81C:\Users\jacks\My_Repositories\Studbud\node_modules\mdn-data\api\inheritance.json132966224233367913 0
 77C:\Users\jacks\My_Repositories\Studbud\node_modules\postcss\lib\document.d.ts132966279414325131 0
 75C:\Users\jacks\My_Repositories\Studbud\node_modules\browserslist\error.d.ts132966224234649062 0
@@ -158,7 +158,7 @@
 80C:\Users\jacks\My_Repositories\Studbud\node_modules\svgo\plugins\_collections.js132966224230695463 0
 87C:\Users\jacks\My_Repositories\Studbud\public\Resources\Images\background_honeycomb.png132967468626990336 0
 88C:\Users\jacks\My_Repositories\Studbud\node_modules\lmdb\dependencies\lz4\lib\lz4frame.h132966224250213231 0
-66C:\Users\jacks\My_Repositories\Studbud\public\scss\typography.scss132967506283655223 0
+66C:\Users\jacks\My_Repositories\Studbud\public\scss\typography.scss132970814431672034 0
 62C:\Users\jacks\My_Repositories\Studbud\public\Resources\Images132967468817390154 1
 80C:\Users\jacks\My_Repositories\Studbud\node_modules\timsort\build\timsort.min.js132966224231275999 0
 82C:\Users\jacks\My_Repositories\Studbud\node_modules\svgo\plugins\preset-default.js132966224239763716 0
@@ -1183,7 +1183,7 @@
 88C:\Users\jacks\My_Repositories\Studbud\node_modules\utility-types\dist\mapped-types.d.ts132966224235770080 0
 69C:\Users\jacks\My_Repositories\Studbud\node_modules\csso\lib\usage.js132966224240294206 0
 96C:\Users\jacks\My_Repositories\Studbud\node_modules\@parcel\utils\src\replaceBundleReferences.js132966224262336537 0
-54C:\Users\jacks\My_Repositories\Studbud\dist\index.html132969948228758171 0
+54C:\Users\jacks\My_Repositories\Studbud\dist\index.html132984434905767105 0
 81C:\Users\jacks\My_Repositories\Studbud\node_modules\terser\node_modules\commander132966224256701407 1
 75C:\Users\jacks\My_Repositories\Studbud\node_modules\terser\tools\props.html132966224231205924 0
 89C:\Users\jacks\My_Repositories\Studbud\node_modules\utility-types\dist\utility-types.d.ts132966224236010301 0
@@ -1677,7 +1677,7 @@
 83C:\Users\jacks\My_Repositories\Studbud\node_modules\source-map-support\package.json132966224229073986 0
 91C:\Users\jacks\My_Repositories\Studbud\node_modules\@swc\helpers\src\_async_to_generator.js132966224247660904 0
 83C:\Users\jacks\My_Repositories\Studbud\node_modules\autoprefixer\lib\declaration.js132966279413515456 0
-62C:\Users\jacks\My_Repositories\Studbud\dist\index.c74267d1.css132969982778950954 0
+62C:\Users\jacks\My_Repositories\Studbud\dist\index.c74267d1.css132984450035468402 0
 67C:\Users\jacks\My_Repositories\Studbud\node_modules\destroy\LICENSE132965679855067189 0
 74C:\Users\jacks\My_Repositories\Studbud\node_modules\escalade\dist\index.js132966224225911110 0
 80C:\Users\jacks\My_Repositories\Studbud\node_modules\source-map-support\README.md132966224231025765 0
@@ -3348,7 +3348,7 @@
 82C:\Users\jacks\My_Repositories\Studbud\node_modules\cosmiconfig\dist\Explorer.d.ts132966224238212316 0
 131C:\Users\jacks\My_Repositories\Studbud\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\package-browser\browser.js132966224236951160 0
 86C:\Users\jacks\My_Repositories\Studbud\node_modules\cosmiconfig\dist\Explorer.d.ts.map132966224234158619 0
-64C:\Users\jacks\My_Repositories\Studbud\dist\home.f3bd186e.js.map132969972491868333 0
+64C:\Users\jacks\My_Repositories\Studbud\dist\home.f3bd186e.js.map132984434905655634 0
 74C:\Users\jacks\My_Repositories\Studbud\node_modules\autoprefixer\README.md132966279415904615 0
 69C:\Users\jacks\My_Repositories\Studbud\node_modules\@parcel\cache\src132966224236770996 1
 80C:\Users\jacks\My_Repositories\Studbud\node_modules\cosmiconfig\dist\Explorer.js132966224226591730 0
@@ -3448,7 +3448,7 @@
 83C:\Users\jacks\My_Repositories\Studbud\node_modules\caniuse-lite\data\regions\AD.js132966224231255975 0
 83C:\Users\jacks\My_Repositories\Studbud\node_modules\caniuse-lite\data\regions\AE.js132966224232356976 0
 83C:\Users\jacks\My_Repositories\Studbud\node_modules\caniuse-lite\data\regions\AF.js132966224232757340 0
-60C:\Users\jacks\My_Repositories\Studbud\dist\home.f3bd186e.js132969972491868333 0
+60C:\Users\jacks\My_Repositories\Studbud\dist\home.f3bd186e.js132984434905543082 0
 83C:\Users\jacks\My_Repositories\Studbud\node_modules\caniuse-lite\data\regions\AG.js132966224233177728 0
 83C:\Users\jacks\My_Repositories\Studbud\node_modules\caniuse-lite\data\regions\AI.js132966224234639049 0
 100C:\Users\jacks\My_Repositories\Studbud\node_modules\caniuse-lite\data\features\css-touch-action-2.js132966224256441180 0
@@ -4006,7 +4006,7 @@
 88C:\Users\jacks\My_Repositories\Studbud\node_modules\caniuse-lite\data\features\webhid.js132966224275108174 0
 86C:\Users\jacks\My_Repositories\Studbud\node_modules\caniuse-lite\data\features\webm.js132966224275148195 0
 103C:\Users\jacks\My_Repositories\Studbud\node_modules\@parcel\workers\test\integration\workerfarm\ping.js132966224241805580 0
-70C:\Users\jacks\My_Repositories\Studbud\dist\logo_busy_bee.b82288b8.png132969948228768179 0
+70C:\Users\jacks\My_Repositories\Studbud\dist\logo_busy_bee.b82288b8.png132984434905543082 0
 86C:\Users\jacks\My_Repositories\Studbud\node_modules\caniuse-lite\data\features\webp.js132966224275178233 0
 87C:\Users\jacks\My_Repositories\Studbud\node_modules\caniuse-lite\data\features\webvr.js132966224275248294 0
 92C:\Users\jacks\My_Repositories\Studbud\node_modules\caniuse-lite\data\features\webworkers.js132966224275298330 0
@@ -4735,7 +4735,7 @@
 95C:\Users\jacks\My_Repositories\Studbud\node_modules\@parcel\fs-search\fs-search.darwin-x64.node132966224236690924 0
 66C:\Users\jacks\My_Repositories\Studbud\node_modules\.bin\acorn.cmd132966224335224206 0
 104C:\Users\jacks\My_Repositories\Studbud\node_modules\@parcel\fs-search\fs-search.linux-arm-gnueabihf.node132966224237791919 0
-74C:\Users\jacks\My_Repositories\Studbud\dist\honeycomb_favicon.a76b5525.png132969948228758171 0
+74C:\Users\jacks\My_Repositories\Studbud\dist\honeycomb_favicon.a76b5525.png132984434905533079 0
 94C:\Users\jacks\My_Repositories\Studbud\node_modules\@babel\helper-validator-identifier\scripts132966224230575350 1
 100C:\Users\jacks\My_Repositories\Studbud\node_modules\@parcel\fs-search\fs-search.linux-arm64-gnu.node132966224238872930 0
 98C:\Users\jacks\My_Repositories\Studbud\node_modules\@parcel\fs-search\fs-search.linux-x64-gnu.node132966224240314237 0
@@ -5018,8 +5018,8 @@
 63C:\Users\jacks\My_Repositories\Studbud\node_modules\.bin\terser132966224335324291 0
 67C:\Users\jacks\My_Repositories\Studbud\node_modules\.bin\terser.cmd132966224335324291 0
 67C:\Users\jacks\My_Repositories\Studbud\node_modules\.bin\terser.ps1132966224335314282 0
-77C:\Users\jacks\My_Repositories\Studbud\dist\background_honeycomb.94f41cbc.png132969948229188562 0
-53C:\Users\jacks\My_Repositories\Studbud\dist\home.html132969973401336086 0
-66C:\Users\jacks\My_Repositories\Studbud\dist\index.c74267d1.css.map132969982778970955 0
-62C:\Users\jacks\My_Repositories\Studbud\dist\public.0ba7c674.js132969948228758171 0
-66C:\Users\jacks\My_Repositories\Studbud\dist\public.0ba7c674.js.map132969948228858282 0
+77C:\Users\jacks\My_Repositories\Studbud\dist\background_honeycomb.94f41cbc.png132984434909107645 0
+53C:\Users\jacks\My_Repositories\Studbud\dist\home.html132984434909538037 0
+66C:\Users\jacks\My_Repositories\Studbud\dist\index.c74267d1.css.map132984450035498439 0
+62C:\Users\jacks\My_Repositories\Studbud\dist\public.0ba7c674.js132984434905543082 0
+66C:\Users\jacks\My_Repositories\Studbud\dist\public.0ba7c674.js.map132984434905655634 0

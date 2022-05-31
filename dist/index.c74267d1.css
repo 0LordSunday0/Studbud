@@ -31,13 +31,18 @@ ul {
 .home {
   background-image: url("background_honeycomb.94f41cbc.png");
   background-attachment: fixed;
+  justify-content: center;
+  display: flex;
 }
 
 .grid-container {
   height: 100vh;
+  width: 80%;
   grid-template: "header header" 1fr
                  "Tasklist Tasklist" 1fr
                  "Tasklist Tasklist" 1fr
+                 "Tasklist Tasklist" 1fr
+                 "Timer Bibliography" 1fr
                  "Timer Bibliography" 1fr
                  "Timer Bibliography" 1fr
                  "Player Player" 1fr
@@ -50,7 +55,8 @@ ul {
   background-color: #ebaf4c;
   border: 8px solid #b87333;
   border-radius: 30px;
-  margin: .5rem 25rem;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
 }
 
 .Player {
@@ -76,8 +82,8 @@ ul {
   border-style: none;
   grid-area: header;
   justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   display: flex;
 }
 
@@ -118,6 +124,10 @@ ul {
   position: absolute;
   bottom: -15px;
   left: 15%;
+}
+
+.tasklist-container .item-container::-webkit-scrollbar {
+  display: none;
 }
 
 .tasklist-container .wrapper {
@@ -185,6 +195,7 @@ ul {
 }
 
 html body h1 {
+  margin: 0;
   font-family: Raleway, sans-serif;
   font-size: 100px;
   font-weight: normal;
