@@ -1,0 +1,84 @@
+.timer-container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1px 1px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". Clock ."
+      "Start Stop Pomodoro";
+  }
+  
+.Start { grid-area: Start; }
+  
+.Stop { grid-area: Stop; }
+  
+.Pomodoro { grid-area: Pomodoro; }
+
+#back-face{
+    grid-area: Clock;
+    margin: auto;
+    aspect-ratio: 1 / 1;
+    background-color: rgb(27, 24, 24);
+    height: clamp(15rem, 20rem, 25rem);
+    border-radius: 50%;
+}
+
+.line {
+    grid-area: Clock;
+    width: 8px;
+    height: clamp(14rem, 19rem, 24rem);
+    background-color: white;
+    margin: auto;
+}
+
+#line-1{
+    transform: rotate(30deg);
+}
+
+#line-2{
+    transform: rotate(60deg);
+}
+
+#line-3{
+    transform: rotate(90deg);
+}
+
+#line-4{
+    transform: rotate(120deg);
+}
+
+#line-5{
+    transform: rotate(150deg);
+}
+
+#line-6{
+    transform: rotate(180deg);
+}
+
+#front-face{
+    grid-area: Clock;
+    aspect-ratio: 1 / 1;
+    background-color: rgb(0, 0, 0);
+    height: clamp(10rem, 15rem, 20rem);
+    border-radius: 50%;
+    margin: auto;
+    z-index: 1;
+}
+
+.hand-container{
+    grid-area: Clock;
+    z-index: 1;
+}
+
+.hand {
+    margin: auto;
+    width: 10px;
+    height: calc(50% - 10px);
+    transform: translateY(10px);
+    background-color: red;
+}
+
+
+
+    

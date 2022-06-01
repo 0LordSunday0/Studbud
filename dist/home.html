@@ -31,11 +31,11 @@
       <!--The task-creation cell contains a hidden form-->
       <div id="task-creation">
         <div class="wrapper">
-          <a href="#demo-modal">New Task</a>
+          <a href="#item-form">New Task</a>
         </div>
         
-        <div id="demo-modal" class="modal">
-            <div class="modal__content">
+        <div id="item-form" class="hiding">
+            <div class="form__content">
                 <h1>Enter Task Details</h1>
 
                 <!--The following code is from our tutorials which covered form creation-->
@@ -72,17 +72,42 @@
                   <button type="submit">Submit</button>
                 </form>
         
-                <div class="modal__footer">
+                <div class="form__footer">
                 </div>
         
-                <a href="#" class="modal__close">&times;</a>
+                <a href="#" class="form__close">&times;</a>
             </div>
         </div>
       </div> 
       
       
     </div>
-    <div class="Timer"></div>
+    <div class="timer-container">
+      <div id="back-face"></div>
+      <div class="line" id="line-1"></div>
+      <div class="line" id="line-2"></div>
+      <div class="line" id="line-3"></div>
+      <div class="line" id="line-4"></div>
+      <div class="line" id="line-5"></div>
+      <div class="line" id="line-6"></div>
+      <div id="front-face"></div>
+      <div class="hand-container" id="minute">
+        <div class="hand" id="minute-hand"></div>
+      </div>
+      <div class="hand-container" id="hour">
+        <div class="hand" id="hour-hand"></div>
+      </div>
+      <div class="hand-container" id="second">
+        <div class="hand" id="second-hand"></div>
+      </div>
+      <div class="Start">
+        <div id="start"></div>
+      </div>
+      <div class="Stop">
+        <div id="stop"></div>
+      </div>
+      <div class="Pomodoro"></div>
+    </div>
     <div class="Player"></div>
     <div class="Bibliography"></div>
   </div>

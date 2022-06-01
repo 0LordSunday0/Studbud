@@ -68,7 +68,7 @@ ul {
   margin-left: .5rem;
 }
 
-.Timer {
+.timer-container {
   grid-area: Timer;
   margin-right: .5rem;
 }
@@ -148,7 +148,7 @@ ul {
   text-decoration: none;
 }
 
-.tasklist-container .modal {
+.tasklist-container .hiding {
   visibility: hidden;
   opacity: 0;
   background: #4d4d4db3;
@@ -160,12 +160,12 @@ ul {
   inset: 0;
 }
 
-.tasklist-container .modal:target {
+.tasklist-container .hiding:target {
   visibility: visible;
   opacity: 1;
 }
 
-.tasklist-container .modal__content {
+.tasklist-container .form__content {
   width: 500px;
   max-width: 90%;
   background: #fff;
@@ -174,24 +174,109 @@ ul {
   position: relative;
 }
 
-.tasklist-container .modal__footer {
+.tasklist-container .form__footer {
   text-align: right;
 }
 
-.tasklist-container .modal__footer a {
+.tasklist-container .form__footer a {
   color: #585858;
 }
 
-.tasklist-container .modal__footer i {
+.tasklist-container .form__footer i {
   color: #d02d2c;
 }
 
-.tasklist-container .modal__close {
+.tasklist-container .formac__close {
   color: #585858;
   text-decoration: none;
   position: absolute;
   top: 10px;
   right: 10px;
+}
+
+.timer-container {
+  grid-template: ". Clock ." 1fr
+                 "Start Stop Pomodoro" 1fr
+                 / 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  gap: 1px;
+  display: grid;
+}
+
+.Start {
+  grid-area: Start;
+}
+
+.Stop {
+  grid-area: Stop;
+}
+
+.Pomodoro {
+  grid-area: Pomodoro;
+}
+
+#back-face {
+  aspect-ratio: 1 / 1;
+  height: 20rem;
+  background-color: #1b1818;
+  border-radius: 50%;
+  grid-area: Clock;
+  margin: auto;
+}
+
+.line {
+  width: 8px;
+  height: 19rem;
+  background-color: #fff;
+  grid-area: Clock;
+  margin: auto;
+}
+
+#line-1 {
+  transform: rotate(30deg);
+}
+
+#line-2 {
+  transform: rotate(60deg);
+}
+
+#line-3 {
+  transform: rotate(90deg);
+}
+
+#line-4 {
+  transform: rotate(120deg);
+}
+
+#line-5 {
+  transform: rotate(150deg);
+}
+
+#line-6 {
+  transform: rotate(180deg);
+}
+
+#front-face {
+  aspect-ratio: 1 / 1;
+  height: 15rem;
+  z-index: 1;
+  background-color: #000;
+  border-radius: 50%;
+  grid-area: Clock;
+  margin: auto;
+}
+
+.hand-container {
+  z-index: 1;
+  grid-area: Clock;
+}
+
+.hand {
+  width: 10px;
+  height: calc(50% - 10px);
+  background-color: red;
+  margin: auto;
+  transform: translateY(10px);
 }
 
 html body h1 {

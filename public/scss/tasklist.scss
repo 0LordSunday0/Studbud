@@ -70,7 +70,7 @@
         font-family: 'Roboto', sans-serif;
     }
     
-    .modal {
+    .hiding {
         visibility: hidden;
         opacity: 0;
         position: absolute;
@@ -85,12 +85,12 @@
         transition: all .4s;
     }
     
-    .modal:target {
+    .hiding:target {
         visibility: visible;
         opacity: 1;
     }
     
-    .modal__content {
+    .form__content {
         border-radius: 4px;
         position: relative;
         width: 500px;
@@ -99,7 +99,7 @@
         padding: 1em 2em;
     }
     
-    .modal__footer {
+    .form__footer {
         text-align: right;
         a {
         color: #585858;
@@ -108,7 +108,7 @@
         color: #d02d2c;
         }
     }
-    .modal__close {
+    .formac__close {
         position: absolute;
         top: 10px;
         right: 10px;
