@@ -2,9 +2,13 @@ html{
     body {
         font-family: 'Raleway', sans-serif;
         font-weight: normal;
+        font-size: 20px;
         h1{
             font-size: clamp(50px, 4vw, 4vw);
             margin: 0;
         }
+        
+            
+        
     }
 }

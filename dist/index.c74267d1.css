@@ -351,14 +351,13 @@ ul {
 
 .kanban #back {
   text-transform: uppercase;
-  color: #585858;
-  background-color: #fff;
-  border-radius: 3px;
+  color: #000;
+  background-color: #b87333;
+  border-radius: 30px;
   padding: 15px;
-  font-family: Roboto, sans-serif;
   text-decoration: none;
   position: absolute;
-  transform: translate(-45vw);
+  transform: translate(-45vw, 10%);
 }
 
 .kanban .text-box {
@@ -370,15 +369,80 @@ ul {
 .kanban .draggable {
   cursor: move;
   background-color: brown;
+  margin: 16px;
   padding: 1rem;
+  display: flex;
 }
 
 .kanban .draggable.dragging {
   opacity: .5;
 }
 
+.kanban #task-creation {
+  position: absolute;
+}
+
+.kanban #new {
+  text-transform: uppercase;
+  color: #000;
+  background-color: #b87333;
+  border-radius: 30px;
+  padding: 15px;
+  text-decoration: none;
+  position: absolute;
+  transform: translate(-45vw, 110%);
+}
+
+.kanban .hiding {
+  visibility: hidden;
+  opacity: 0;
+  background: #4d4d4db3;
+  justify-content: center;
+  align-items: center;
+  transition: all .4s;
+  display: flex;
+  position: absolute;
+  inset: 0;
+}
+
+.kanban .hiding:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.kanban .form__content {
+  width: 500px;
+  background: #fff;
+  border-radius: 4px;
+  padding: 1em 2em;
+  font-size: 24px;
+  position: absolute;
+  transform: translateY(50vh);
+}
+
+.kanban .form__footer {
+  text-align: right;
+}
+
+.kanban .form__footer a {
+  color: #585858;
+}
+
+.kanban .form__footer i {
+  color: #d02d2c;
+}
+
+.kanban .formac__close {
+  color: #585858;
+  text-decoration: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
 html body {
   font-family: Raleway, sans-serif;
+  font-size: 20px;
   font-weight: normal;
 }
 

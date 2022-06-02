@@ -15,6 +15,42 @@
 
 <body class= "kanban">
     <a id="back" href="home.html">Back</a>
+    <a id="new" href="#item-form">New Task</a>
+    <div id="task-creation">
+        <div id="item-form" class="hiding">
+            <div class="form__content">
+                <h2>Enter Task Details</h2>
+
+                <!--The following code is from our tutorials which covered form creation-->
+                <form id="taskform">
+                    <label for="task">Task:</label>
+                    <input type="text" name="task" id="taskInput" required>
+                    <br>
+                    <!-- Date input -->
+                    <label for="dueDate">Due Date: </label>
+                    <input type="date" name="dueDate" id="dueDateInput" required>
+                    <br>
+                    <!-- Priority -->
+                    <br>
+                    <label for="priority">Task Priority:</label>
+                    <select name="prority" id="priorityInput" required>
+                        <option value="">Select one</option>
+                        <option value="Low">Low</option>
+                        <option value="Medium">Medium</option>
+                        <option value="High">High</option>
+                    </select>
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+        
+                <div class="form__footer">
+                </div>
+                <a href="#" class="form__close">&times;</a>
+            </div>
+        </div>
+      </div> 
+    </div>
+
     <div class="grid-container">
         <div class='text-box' id="To-do">
             <h1>To Do</h1>
@@ -26,8 +62,14 @@
             <h1>Done</h1>
         </div>
         <div class="container" id="row-1-container">
-            <p class="draggable" draggable="true">Test1</p>
-            <p class="draggable" draggable="true">Test2</p>
+            <!--
+            <div class="draggable" draggable="true">
+                <p>Test1</p>
+            </div> 
+            <div class="draggable" draggable="true">
+                <p>Test2</p>
+            </div> 
+            -->
         </div>
         <div class="container" id="row-2-container"></div>
         <div class="container" id="row-3-container"></div>
