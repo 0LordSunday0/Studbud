@@ -35,7 +35,14 @@ ul {
   display: flex;
 }
 
-.grid-container {
+.kanban {
+  background-image: url("background_honeycomb.94f41cbc.png");
+  background-attachment: fixed;
+  justify-content: center;
+  display: flex;
+}
+
+.home .grid-container {
   height: 100vh;
   width: 80%;
   grid-template: "header header" 1fr
@@ -51,33 +58,33 @@ ul {
   display: grid;
 }
 
-.grid-container > * {
+.home .grid-container > * {
   background-color: #f6bf51;
   border-radius: 30px;
   margin-top: .5rem;
   margin-bottom: .5rem;
 }
 
-.Player {
+.home .Player {
   grid-area: Player;
   margin-left: .5rem;
 }
 
-.Bibliography {
+.home .Bibliography {
   grid-area: Bibliography;
   margin-left: .5rem;
 }
 
-.timer-container {
+.home .timer-container {
   grid-area: Timer;
   margin-right: .5rem;
 }
 
-.tasklist-container {
+.home .tasklist-container {
   grid-area: Tasklist;
 }
 
-.Header {
+.home .Header {
   background-color: #f6bf51;
   border-style: none;
   grid-area: header;
@@ -287,11 +294,91 @@ ul {
   transform: rotate(180deg);
 }
 
+.kanban .grid-container {
+  height: 100vh;
+  width: 80%;
+  background-color: #b87333;
+  border-radius: 30px;
+  grid-template: "before middle after" 1fr
+                 "row1 row2 row3" 10fr
+                 / 1fr 1fr 1fr;
+  gap: 1px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: grid;
+}
+
+.kanban .grid-container > * {
+  background-color: #f6bf51;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.kanban #To-do {
+  grid-area: "before";
+  border-top-left-radius: 30px;
+  margin-bottom: 0;
+}
+
+.kanban #Doing {
+  grid-area: "middle";
+  margin-bottom: 0;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.kanban #Done {
+  grid-area: "after";
+  border-top-right-radius: 30px;
+  margin-bottom: 0;
+}
+
+.kanban #row-1-container {
+  grid-area: "row1";
+  border-bottom-left-radius: 30px;
+}
+
+.kanban #row-2-container {
+  grid-area: "row2";
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.kanban #row-3-container {
+  grid-area: "row3";
+  border-bottom-right-radius: 30px;
+}
+
+.kanban #back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.kanban .wrapper a {
+  text-transform: uppercase;
+  color: #585858;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 15px;
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
+}
+
+.kanban .text-box {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+html body {
+  font-family: Raleway, sans-serif;
+  font-weight: normal;
+}
+
 html body h1 {
   margin: 0;
-  font-family: Raleway, sans-serif;
-  font-size: 100px;
-  font-weight: normal;
+  font-size: max(50px, 4vw);
 }
 
 /*# sourceMappingURL=index.c74267d1.css.map */

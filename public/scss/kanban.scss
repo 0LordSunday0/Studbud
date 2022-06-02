@@ -1,0 +1,86 @@
+.kanban {
+    .grid-container {
+        height: 100vh;
+        width: clamp(50%, 80%, 100%);
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 10fr; 
+        gap: 1px 1px; 
+        background-color: #B87333;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 30px;
+        grid-template-areas: 
+        "before middle after"
+        "row1 row2 row3"; 
+    }
+    
+    .grid-container > *{
+        //border-radius: 30px;
+        background-color: #f6bf51;
+        //border-style: solid;
+        //border-width: 8px;
+        //border-color: #B87333;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    #To-do {
+        grid-area: "before";
+        border-top-left-radius: 30px;
+        margin-bottom: 0;
+    }
+
+    #Doing {
+        grid-area: "middle";
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-bottom: 0;
+    }
+
+    #Done {
+        grid-area: "after";
+        border-top-right-radius: 30;
+        margin-bottom: 0;
+    }
+
+    #row-1-container {
+        grid-area: "row1";
+        border-bottom-left-radius: 30;
+    }
+
+    #row-2-container {
+        grid-area: "row2";
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    #row-3-container {
+        grid-area: "row3";
+        border-bottom-right-radius: 30;
+    }
+
+    #back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .wrapper a {
+        text-decoration: none;
+        padding: 15px;
+        background-color: #fff;
+        border-radius: 3px;
+        text-transform: uppercase;
+        color: #585858;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    .text-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
