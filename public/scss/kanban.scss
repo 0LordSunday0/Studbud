@@ -7,8 +7,8 @@
         grid-template-rows: 1fr 10fr; 
         gap: 1px 1px; 
         background-color: #B87333;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
         border-radius: 30px;
         grid-template-areas: 
         "before middle after"
@@ -62,12 +62,6 @@
 
     #back {
         position: absolute;
-        width: 100%;
-        height: 100%;
-
-    }
-
-    .wrapper a {
         text-decoration: none;
         padding: 15px;
         background-color: #fff;
@@ -75,12 +69,22 @@
         text-transform: uppercase;
         color: #585858;
         font-family: 'Roboto', sans-serif;
-
+        transform: translate(-45vw);
     }
 
     .text-box {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .draggable {
+        padding: 1rem;
+        background-color: brown;
+        cursor: move;
+    }
+
+    .draggable.dragging {
+        opacity: 0.5;
     }
 }
