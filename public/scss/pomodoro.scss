@@ -1,14 +1,17 @@
+$minclock: 300px;
+$prefered: 20vw;
+$maxclock: 1000px;
+
 .timer-container {  
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
     gap: 1px 1px;
-    grid-auto-flow: row;
     grid-template-areas:
       ". Clock ."
       "Start Stop Pomodoro";
-  }
-  
+    }
+
 .Start { grid-area: Start; }
   
 .Stop { grid-area: Stop; }
@@ -20,14 +23,14 @@
     margin: auto;
     aspect-ratio: 1 / 1;
     background-color: rgb(27, 24, 24);
-    height: clamp(15rem, 20rem, 25rem);
+    width: clamp($minclock, $prefered, $maxclock);
     border-radius: 50%;
 }
 
 .line {
     grid-area: Clock;
-    width: 8px;
-    height: clamp(14rem, 19rem, 24rem);
+    width: clamp(4px, 0.5vw, 8px);
+    height: clamp(calc($minclock - 10px), calc($prefered - 20px), $maxclock);
     background-color: white;
     margin: auto;
 }
@@ -60,7 +63,7 @@
     grid-area: Clock;
     aspect-ratio: 1 / 1;
     background-color: rgb(0, 0, 0);
-    height: clamp(10rem, 15rem, 20rem);
+    height: clamp(calc($minclock - 40px), calc($prefered - 80px), $maxclock);
     border-radius: 50%;
     margin: auto;
     z-index: 1;
@@ -69,14 +72,17 @@
 .hand-container{
     grid-area: Clock;
     z-index: 1;
+    transform: translate(50%, 50%);
+    
 }
 
 .hand {
-    margin: auto;
-    width: 10px;
-    height: calc(50% - 10px);
-    transform: translateY(10px);
+    width: clamp(4px, 0.5vw, 8px);
+    height: clamp(calc(calc($minclock - 40px)/2), calc(calc($prefered - 80px)/2), $maxclock);
     background-color: red;
+    transform-origin: center top;
+    transform: rotate(180deg);
+    
 }
 
 

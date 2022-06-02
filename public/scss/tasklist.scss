@@ -16,7 +16,8 @@
 
     .task-creation {
         grid-area: add;
-        
+        display: flex;
+        align-items: center;
     }
 
     .item-container {
@@ -50,7 +51,14 @@
     //Following code inspired by https://markodenic.com/css-tips/. The idea is to use the target psuedo class 
     //in order to hide the task creation options in a hidden div, allowing for a more streamlined design.
     //This also makes it easier to make it mobile compatible.
+    
+    #Nav-Bar {
+        display: flex;
+        margin-top: 1rem;
+    }
+
     .wrapper {
+        margin: auto;
         height: 100%;
         width: 100%;
         display: flex;
