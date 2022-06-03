@@ -36,7 +36,15 @@ function addTask(taskDescription, dueDate, estimatedTime, priorityRating, comple
 function renderTask(task) {
     // Create HTML elements
     let item = document.createElement("li");
-    item.innerHTML = task.taskDescription + " " + task.dueDate + " " + task.priorityRating;
+    let p = document.createElement("p");
+    p.innerHTML = task.taskDescription;
+    item.appendChild(p);
+    let a = document.createElement("p");
+    a.innerHTML = task.dueDate;
+    item.appendChild(a);
+    let b = document.createElement("p");
+    b.innerHTML = task.priorityRating;
+    item.appendChild(b);
     tasklist.appendChild(item);
     // Extra Task DOM elements
     let delButton = document.createElement("button");
@@ -51,5 +59,12 @@ function renderTask(task) {
     // Clear the input form
     form.reset();
 }
+let button1 = document.querySelector('.js-button');
+let confirmContainer = document.querySelector('.button-container');
+let hand = document.getElementById('hour-hand');
+button1.addEventListener('click', ()=>{
+    if (hand.classList.contains('on')) hand.classList.remove('on');
+    else hand.classList.add('on');
+});
 
 //# sourceMappingURL=home.f3bd186e.js.map

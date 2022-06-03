@@ -12,11 +12,11 @@ $maxclock: 1000px;
       "Start Stop Pomodoro";
     }
 
-.Start { grid-area: Start; }
+#start { grid-area: Start; }
   
-.Stop { grid-area: Stop; }
+#stop { grid-area: Stop; }
   
-.Pomodoro { grid-area: Pomodoro; }
+#pomodoro { grid-area: Pomodoro; }
 
 #back-face{
     grid-area: Clock;
@@ -85,6 +85,30 @@ $maxclock: 1000px;
     
 }
 
+@keyframes pomodoro {
+    from {transform: rotate(180deg);}
+    to {transform: rotate(540deg);}
+}
 
+.hand.on {
+    animation-name: pomodoro;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.button-container > * {
+    background-color: grey;
+    aspect-ratio: 1/1;
+    height: 10rem;
+    border-radius: 50%;
+}
 
     

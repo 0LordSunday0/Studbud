@@ -118,9 +118,11 @@ ul {
 }
 
 .tasklist-container .item-container ul li {
-  background-color: #f6bf51;
+  background-color: #b87333;
+  justify-content: center;
   margin-bottom: 20px;
   padding: 10px 0;
+  display: flex;
   position: relative;
 }
 
@@ -133,6 +135,10 @@ ul {
   position: absolute;
   bottom: -15px;
   left: 15%;
+}
+
+.tasklist-container .item-container ul button {
+  margin-left: 2rem;
 }
 
 .tasklist-container .item-container::-webkit-scrollbar {
@@ -166,6 +172,7 @@ ul {
 .tasklist-container .hiding {
   visibility: hidden;
   opacity: 0;
+  z-index: 2;
   background: #4d4d4db3;
   justify-content: center;
   align-items: center;
@@ -183,6 +190,7 @@ ul {
 .tasklist-container .form__content {
   width: 500px;
   max-width: 90%;
+  z-index: 2;
   background: #fff;
   border-radius: 4px;
   padding: 1em 2em;
@@ -217,15 +225,15 @@ ul {
   display: grid;
 }
 
-.Start {
+#start {
   grid-area: Start;
 }
 
-.Stop {
+#stop {
   grid-area: Stop;
 }
 
-.Pomodoro {
+#pomodoro {
   grid-area: Pomodoro;
 }
 
@@ -292,6 +300,36 @@ ul {
   transform-origin: top;
   background-color: red;
   transform: rotate(180deg);
+}
+
+@keyframes pomodoro {
+  from {
+    transform: rotate(180deg);
+  }
+
+  to {
+    transform: rotate(540deg);
+  }
+}
+
+.hand.on {
+  animation-name: pomodoro;
+  animation-duration: 60s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.button-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.button-container > * {
+  aspect-ratio: 1 / 1;
+  height: 10rem;
+  background-color: gray;
+  border-radius: 50%;
 }
 
 .kanban .grid-container {
