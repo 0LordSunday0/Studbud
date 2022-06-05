@@ -1,38 +1,38 @@
-const form = document.getElementById("reference");
-const button = document.querySelector("#referenceform > button")
+const referenceform = document.getElementById("referenceform");
+const referencebutton = document.querySelector("#referenceform > button")
 var referenceInput = document.getElementById("referenceInput");
 var referencelist = document.getElementById("referenceList");
 
-var dueDateInput = document.getElementById("dueDateInput");
+var dateAccessedInput = document.getElementById("ReferenceAccessed");
 
-form.addEventListener("submit", function(event){
+referenceform.addEventListener("submit", function(event){
   event.preventDefault();
-  let reference = taskInput.value;
-  let dueDate = dueDateInput.value;
-  addTask(reference, dueDate, false);
+  let reference = referenceInput.value;
+  let dateAccessed = dateAccessedInput.value;
+  addReference(reference, dateAccessed, false);
   console.log(referencelist);
 })
 
 var referenceListArray = [];
 
-function addTask(referenceDescription, dueDate, completionStatus) {
+function addReference(referenceDescription, dateAccessed, completionStatus) {
   let reference = {
     referenceDescription,
-    dueDate,
+    dateAccessed,
     completionStatus
   };
   referenceListArray.push(reference);
-  renderTask(reference);
+  referenceRenderTask(reference);
 }
 
-function renderTask(task){
+function referenceRenderTask(reference){
   // Create HTML elements
   let item = document.createElement("li");
   let p = document.createElement("p");
   p.innerHTML = reference.referenceDescription;
   item.appendChild(p);
   let a = document.createElement("p");
-  a.innerHTML = reference.dueDate;
+  a.innerHTML = reference.dateAccessed;
   item.appendChild(a);
 
   referencelist.appendChild(item);
@@ -52,6 +52,6 @@ function renderTask(task){
 
 
   // Clear the input form
-  form.reset();
+  referenceform.reset();
 }
 

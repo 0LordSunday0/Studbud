@@ -8,11 +8,11 @@
     gap: 1px 1px; 
     grid-template-areas: 
       "add"
-      "things"
-      "things"
-      "things"
-      "things"
-      "things";
+      "things2"
+      "things2"
+      "things2"
+      "things2"
+      "things2";
 
     .task-creation {
         grid-area: add;
@@ -21,7 +21,7 @@
     }
 
     .item-container {
-        grid-area: things;
+        grid-area: things2;
         overflow-y: scroll;
 
         ul {
@@ -124,7 +124,7 @@
         color: #d02d2c;
         }
     }
-    .formac__close {
+    .form__close {
         position: absolute;
         top: 10px;
         right: 10px;

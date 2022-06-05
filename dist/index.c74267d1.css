@@ -146,11 +146,11 @@ ul {
 
 .tasklist-container {
   grid-template: "add" 1fr
-                 "things" 1fr
-                 "things" 1fr
-                 "things" 1fr
-                 "things" 1fr
-                 "things" 1fr
+                 "things2" 1fr
+                 "things2" 1fr
+                 "things2" 1fr
+                 "things2" 1fr
+                 "things2" 1fr
                  / 1fr;
   gap: 1px;
   display: grid;
@@ -163,7 +163,7 @@ ul {
 }
 
 .tasklist-container .item-container {
-  grid-area: things;
+  grid-area: things2;
   overflow-y: scroll;
 }
 
@@ -259,7 +259,7 @@ ul {
   color: #d02d2c;
 }
 
-.tasklist-container .formac__close {
+.tasklist-container .form__close {
   color: #585858;
   text-decoration: none;
   position: absolute;
@@ -575,7 +575,7 @@ ul {
   margin-left: 2rem;
 }
 
-.reference-container .reference-container::-webkit-scrollbar {
+.reference-container .referenceitem-container::-webkit-scrollbar {
   display: none;
 }
 
@@ -643,7 +643,7 @@ ul {
   color: #d02d2c;
 }
 
-.reference-container .referenceform__close {
+.reference-container .referenceformac__close {
   color: #585858;
   text-decoration: none;
   position: absolute;
