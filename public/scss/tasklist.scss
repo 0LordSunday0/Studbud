@@ -1,7 +1,8 @@
 .tasklist-container {
     //background-color: rgb(57, 155, 49);
     //The following is the grid containing our task list items and task creation button
-    //height: 100%;
+    
+    height: 100%;
     display: grid; 
     grid-template-columns: 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
@@ -22,6 +23,7 @@
 
     .item-container {
         grid-area: things2;
+        height: 100%;
         overflow-y: scroll;
 
         ul {

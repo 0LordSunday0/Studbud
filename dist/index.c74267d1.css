@@ -55,25 +55,7 @@ ul {
                    "Timer Player" 1fr
                    "Timer Player" 1fr
                    / 1fr 1fr;
-    gap: 1px;
-    display: grid;
-  }
-}
-
-@media screen and (max-width: 2000px) {
-  .home .grid-container {
-    height: 100vh;
-    width: 80%;
-    grid-template: "header header" 1fr
-                   "Tasklist Tasklist" 1fr
-                   "Tasklist Tasklist" 1fr
-                   "Tasklist Tasklist" 1fr
-                   "Timer Timer" 1fr
-                   "Timer Timer" 1fr
-                   "Player Player" 1fr
-                   "Bibliography Bibliography" 1fr
-                   / 1fr 1fr;
-    gap: 1px;
+    gap: 1rem;
     display: grid;
   }
 }
@@ -81,15 +63,12 @@ ul {
 .home .grid-container > * {
   background-color: #f6bf51;
   border-radius: 30px;
-  margin-top: .5rem;
-  margin-bottom: .5rem;
 }
 
 .home .Player {
   grid-area: Player;
   justify-content: center;
   align-items: center;
-  margin-left: .5rem;
   display: flex;
 }
 
@@ -122,12 +101,10 @@ ul {
 
 .home .Bibliography {
   grid-area: Bibliography;
-  margin-left: .5rem;
 }
 
 .home .timer-container {
   grid-area: Timer;
-  margin-right: .5rem;
 }
 
 .home .tasklist-container {
@@ -139,12 +116,11 @@ ul {
   border-style: none;
   grid-area: header;
   justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
   display: flex;
 }
 
 .tasklist-container {
+  height: 100%;
   grid-template: "add" 1fr
                  "things2" 1fr
                  "things2" 1fr
@@ -163,6 +139,7 @@ ul {
 }
 
 .tasklist-container .item-container {
+  height: 100%;
   grid-area: things2;
   overflow-y: scroll;
 }
@@ -529,10 +506,8 @@ ul {
 }
 
 .reference-container {
+  height: 100%;
   grid-template: "add" 1fr
-                 "things" 1fr
-                 "things" 1fr
-                 "things" 1fr
                  "things" 1fr
                  "things" 1fr
                  / 1fr;
@@ -547,6 +522,7 @@ ul {
 }
 
 .reference-container .referenceitem-container {
+  height: 100%;
   grid-area: things;
   overflow-y: scroll;
 }

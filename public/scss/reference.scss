@@ -1,16 +1,13 @@
 .reference-container {
     //background-color: rgb(57, 155, 49);
     //The following is the grid containing our task list items and task creation button
-    //height: 100%;
+    height: 100%;
     display: grid; 
     grid-template-columns: 1fr; 
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
     gap: 1px 1px; 
     grid-template-areas: 
       "add"
-      "things"
-      "things"
-      "things"
       "things"
       "things";
 
@@ -22,6 +19,7 @@
 
     .referenceitem-container {
         grid-area: things;
+        height: 100%;
         overflow-y: scroll;
 
         ul {
