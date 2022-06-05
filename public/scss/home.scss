@@ -1,23 +1,44 @@
 /*This scss is the structure and styling of the home page and its grid*/
 .home {
-    .grid-container {
-        height: 100vh;
-        width: clamp(50%, 80%, 100%);
-        display: grid; 
-        grid-template-columns: 1fr 1fr; 
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
-        gap: 1px 1px; 
-        grid-template-areas: 
-          "header header"
-          "Tasklist Tasklist"
-          "Tasklist Tasklist"
-          "Tasklist Tasklist"
-          "Timer Bibliography"
-          "Timer Bibliography"
-          "Timer Player"
-          "Timer Player"; 
-      }
     
+    @media screen and (min-width: 400px) {
+        .grid-container {
+            height: 100vh;
+            width: clamp(50%, 80%, 100%);
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+            gap: 1px 1px; 
+            grid-template-areas: 
+              "header header"
+              "Tasklist Tasklist"
+              "Tasklist Tasklist"
+              "Tasklist Tasklist"
+              "Timer Bibliography"
+              "Timer Bibliography"
+              "Timer Player"
+              "Timer Player"; 
+          }
+    }
+    @media screen and (max-width: 2000px) {
+        .grid-container {
+            height: 100vh;
+            width: clamp(50%, 80%, 100%);
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+            gap: 1px 1px; 
+            grid-template-areas: 
+            "header header"
+            "Tasklist Tasklist"
+            "Tasklist Tasklist"
+            "Tasklist Tasklist"
+            "Timer Timer"
+            "Timer Timer"
+            "Player Player"
+            "Bibliography Bibliography"; 
+        }
+    }
     .grid-container > *{
         border-radius: 30px;
         background-color: #f6bf51;
@@ -31,6 +52,37 @@
     .Player { 
         grid-area: Player; 
         margin-left: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .play-container {
+            //background-color: black;
+            width: 4rem;
+            height: 4rem;
+            margin: auto;
+        }
+
+        #play {
+            width: 0; 
+            height: 0; 
+            border-top: 3rem solid transparent;
+            border-bottom: 3rem solid transparent;
+            border-left: 5rem solid black;
+        }
+
+        #pause {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #pause > *{
+            background-color: black;
+            width: 1rem;
+            height: 5rem;
+            margin: auto;
+        }
     }
     .Bibliography { 
         grid-area: Bibliography; 

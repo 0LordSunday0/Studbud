@@ -114,13 +114,65 @@
         <button class="js-button" type="button"><p>POMODORO</p></button>
       </div>
     </div>
-    <div class="Player"></div>
+    <div class="Player">
+      <audio controls>
+        <source src="Resources/Music/Anastasia - Once Upon A December for Piano.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+      <!--
+      <div class="play-container" id="play"></div>
+      <div class="play-container" id="pause">
+        <div id="1"></div>
+        <div id="2"></div>
+      </div>
+    -->
+    </div>
     <div class="Bibliography">
+      <div class="reference-container">
       
+        <!--This is wher new tasks are appended-->
+        <div class="referenceitem-container">
+          <ul id="referenceList">
+          </ul>
+        </div>
+        
+        <!--The reference-creation cell contains a hidden form-->
+        <div id="reference-creation">
+          <div id="referenceNav-Bar">
+            <div class="referencewrapper">
+              <a href="#reference-form">New Reference</a>
+            </div>
+          </div>
+          <div id="reference-form" class="hiding">
+              <div class="referenceform__content">
+                  <h2>Enter Reference Details</h2>
+  
+                  <!--The following code is from our tutorials which covered form creation-->
+                  <form id="referenceform">
+                    <label for="reference">Name</label>
+                    <input type="text" name="reference" id="referenceInput" required>
+  
+                    <br>
+                  <!-- Date input -->
+                    <label for="dueDate">Accessed on</label>
+                    <input type="date" name="dueDate" id="dueDateInput" required>
+                    <br>
+                    <button type="submit">Submit</button>
+                  </form>
+          
+                  <div class="referenceform__footer">
+                  </div>
+          
+                  <a href="#" class="referenceform__close">&times;</a>
+              </div>
+          </div>
+        </div> 
+      </div>
     </div>
   </div>
 </body>
 
 <script src="script.js"></script>
+<script src="reference.js"></script>
 
 </html>

@@ -1,4 +1,4 @@
-$minclock: 300px;
+$minclock: 100px;
 $prefered: 20vw;
 $maxclock: 1000px;
 
@@ -107,7 +107,7 @@ $maxclock: 1000px;
 .button-container > * {
     background-color: grey;
     aspect-ratio: 1/1;
-    height: 10rem;
+    height: clamp(4rem, 10vw, 8rem);
     border-radius: 50%;
 }
 
